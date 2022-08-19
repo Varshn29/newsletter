@@ -1,0 +1,27 @@
+.details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 100px;
+}
+
+.content {
+    width: 700px;
+}
+
+.likes {
+    margin-left: 50px;
+}
+
+.category {
+    text-transform: uppercase;
+}
+
+.button {
+    border: rgb(98, 6, 140);
+    background-color: rgb(98, 6, 140);
+    padding: 10px;
+    color: whitesmoke;
+    font-size: 14px;
+    border-radius: 20px;
+}
