@@ -1,15 +1,16 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Header from './Components/Header/Header'
-import Router from './Router/Router';
+import AddTodo from './Components/AddTodo/AddTodo';
+import TodoList from './Components/TodoList/TodoList';
+
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Header />
-        <Router />
+        <AddTodo />
+        <TodoList />
       </div>
     </BrowserRouter>
   );
