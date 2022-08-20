@@ -1,16 +1,14 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Header from './Components/Header/Header'
-import Router from './Router/Router';
+import Counter from './Components/Counter/Counter';
 
 function App() {
+
+
   return (
     <BrowserRouter>
-      <div className="App">
-        <Header />
-        <Router />
-      </div>
+      <Counter />
     </BrowserRouter>
   );
 }
